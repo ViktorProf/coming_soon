@@ -1,0 +1,114 @@
+
+
+#content{
+	background-image: url(../img/ice.png), url(../img/background.png);
+	background-repeat: no-repeat;
+	background-position: 58% 98%, 50% 111%;
+	width: 980px;
+	height: 990px;
+	margin: 0 auto;
+}
+
+#clouds{
+	margin-left: 136px;
+	margin-top: -177px;
+}
+
+#main_content{
+	max-width:700px;
+	margin: 4px auto;
+	text-align: center;
+}
+
+#coming_soon h1{
+	font-family:HouschkaPro, Arial, sans-serif;
+	font-size:72px;
+	color:#fefefe;
+	text-shadow:4px 4px 2px rgba(150, 150, 150, 1);
+	margin:45px auto -14px;
+}
+
+#Subscribe h2 {
+	font-family: HouschkaPro, "Times New Roman", sans-serif;
+	font-size: 14px;
+	color: #30729d;
+}
+#form{
+	margin: 19px auto 5px;
+}
+#form input{
+	font-family:"Times New Roman", sans-serif;
+	font-size: 11px;
+	color: #808080;
+	width: 235px;
+	height: 32px;
+	border-radius: 4px;
+	
+}
+
+#form button{
+	background-image: url(../img/button.jpg);
+	width: 90px;
+	height: 35px;
+	border: 1px solid #faa923;
+	border-radius: 3px;
+	color: #f7e7cb;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+}
+
+#boat{
+	margin: 201px 302px 40px 301px;
+	transition:5s all;
+}
+
+*#boat:hover{
+	margin: 198px 302px 40px 195px;
+}
+
+#time{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 420px;
+	margin-top:150px;
+	margin: 40px auto;
+	}
+
+.circle{
+	padding: 20px;
+	background-image:url(../img/circle.png);
+	background-repeat:no-repeat;
+	background-position: 23px 10px;
+	width: 75px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	display: flex;
+	font-size:20px;
+	
+}
+
+.bl2{
+	box-sizing:content-box;
+	padding: 20px;
+	color: #f7e7cb;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 2px;
+	font-size:20px;
+	width: 75px;
+}
+
+p{
+	display: block;
+	margin: auto;
+	color: #4d88ae;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
